@@ -1,0 +1,7 @@
+[27-Feb-2024 20:32:01 America/Monterrey] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/multilib/public_html/phpmailer2/src/PHPMailer.php:1858
+Stack trace:
+#0 /home/multilib/public_html/phpmailer2/src/PHPMailer.php(1600): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 27 F...', '\r\n<h3>Comentari...')
+#1 /home/multilib/public_html/phpmailer2/src/PHPMailer.php(1436): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/multilib/public_html/contacto.php(96): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/multilib/public_html/phpmailer2/src/PHPMailer.php on line 1858
