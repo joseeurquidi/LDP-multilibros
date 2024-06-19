@@ -5893,3 +5893,55 @@ footer p {
    }
 }   
 
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.provider-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 80px;
+    /* filter: grayscale(100%); */
+    transition: 0.3s all;
+    /* border: 1px solid #202020; */
+    padding: 8px;
+    background-origin: content-box;
+}
+
+.provider-img:hover{
+    /* filter: none; */
+    padding: 0px;
+    /* transform: scale(1.1); */
+}
+
+.mx-0{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.main-color{
+    color: #f2c900;
+}
+
+.main-link{
+    color: #f2c900;
+    text-decoration: underline 1px #f2c900;
+}
+
+.main-link:hover{
+    color: #f2c900;
+    text-decoration: underline 1px #f2c900;
+}
+
+.white-link{
+    color: #ffffff;
+    text-decoration: underline 1px #ffffff;
+}
+
+.white-link:hover{
+    color: #ffffff;
+    text-decoration: underline 1px #ffffff;
+}

@@ -387,6 +387,32 @@ jQuery(function ($) {
       }
    });
 
+   $("#logos-providers").owlCarousel({
+      center: true,
+      items: 5,
+      autoplay: 500,
+      loop: true,
+      dots: false,
+      nav: false,
+      responsive: {
+         900: {
+            items: 6
+         },
+         600: {
+            items: 2
+         },
+         480: {
+            items: 2,
+         },
+         320: {
+            items: 1,
+         },
+      }
+   });
+
+   let date = new Date()
+   document.getElementById("currentYear").innerHTML = date.getFullYear()
+
    /*Testimonial three img dots  */
    // $(".testimonial-text.owl-carousel").owlCarousel({
    //    items: 1,
