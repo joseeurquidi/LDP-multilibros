@@ -152,6 +152,12 @@ button {
 .padding_top_half {
     padding-top: 4.375rem;
 }
+.padding_top_quarter {
+    padding-top: 2.1875rem;
+}
+.padding_bottom_quarter {
+    padding-bottom: 2.1875rem;
+}
 .heading_space {
     margin-bottom: 4.6875rem;
 }
