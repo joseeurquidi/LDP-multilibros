@@ -5951,3 +5951,173 @@ footer p {
     color: #ffffff;
     text-decoration: underline 1px #ffffff;
 }
+
+.p-image{
+    position: relative;
+}
+
+.p-image .p-big-image{
+    overflow: hidden;
+}
+
+.p-image .p-big-image img{
+    transition: all 0.3s;
+}
+
+.p-image:hover .p-big-image img{
+    transform: scale(1.15);
+}
+
+.p-image .p-overlay-button{
+    position: absolute;
+    background-color: #000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.p-image .p-overlay-button a{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.p-image .p-overlay-button a:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #f2c900;
+}
+
+.p-image:hover .p-overlay-button{
+    display: flex;
+}
+
+.px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.reveal {
+    color: #0000;
+    background: linear-gradient(#979797 0 0) no-repeat;
+    background-size: 0% 100%;
+    transition: all 0.5s;
+    -webkit-background-clip: text;
+            background-clip: text;
+    /* animation: t 1.2s .5s both; */
+}
+
+@keyframes t{
+    to {background-size: 100% 100%}
+}
+
+.reveal:hover{
+    /* animation: t .5s both; */
+    background-size: 100% 100%;
+    
+}
+
+.pservice-item .box-image{
+    position: relative;
+}
+
+.pservice-item .box-image .reveal-mensaje{
+    position: absolute;
+    top: 0px;
+    
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    transition: all 1.3s;
+}
+
+.pservice-item .box-image .reveal-mensaje.left{
+    left: 100%;
+    text-align: left;
+}
+
+.pservice-item .box-image .reveal-mensaje.right{
+    right: 100%;
+    text-align: right;
+}
+
+.pservice-item:hover .box-image .reveal-mensaje.left{
+    left: 0px;
+}
+
+.pservice-item:hover .box-image .reveal-mensaje.right{
+    right: 0px;
+}
+
+.s-image-right{
+    text-align: right;
+    text-align: -webkit-right;
+}
+
+.s-image-left{
+    text-align: left;
+    text-align: -webkit-left;
+}
+
+
+@media screen and (max-width: 992px){
+    .s-image-right{
+        text-align: center;
+        text-align: -webkit-center;
+    }
+
+    .s-image-left{
+        text-align: center;
+        text-align: -webkit-center;
+    }
+
+    .pservice-item .box-image .reveal-mensaje{
+        text-align: center !important;
+    }
+    
+}
+
+.text-md-left-center{
+    text-align: left;
+}
+
+@media screen and (max-width: 992px){
+    .text-md-left-center{
+        text-align: center;
+    }   
+}
+
+.text-md-right-center{
+    text-align: right;
+}
+
+@media screen and (max-width: 992px){
+    .text-md-right-center{
+        text-align: center;
+    }   
+}
+
+.list-ul{
+    margin-left: 20px;
+}
+
+.list-ul li{
+    list-style-type: disc;
+}
